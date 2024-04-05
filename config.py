@@ -1,0 +1,3 @@
+TOKEN = '7113724948:AAE_IDPlgY7QK_xRK9Dcwidh8FZSpvrU-g8'
+BOT_NAME = 'Dubaikis_bot'
+PAYMENTS_TOKEN = '167844:AAEPftVzop8E7xVohzsbIyBa51xpKIjiHvh'
