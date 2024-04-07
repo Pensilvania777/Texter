@@ -10,7 +10,7 @@ from aiogram.fsm.context import FSMContext
 
 
 
-API_TOKEN = '167844:AAEPftVzop8E7xVohzsbIyBa51xpKIjiHvh'
+API_TOKEN = '169181:AAptPigX13JadYZkYARHotYhOmE25L7GWNu'
 
 crypto_assets = ['USDT', 'USDC', 'BTC', 'BNB', 'TRX', 'TON', 'ETH', 'LTC']
 
