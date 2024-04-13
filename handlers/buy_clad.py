@@ -653,7 +653,7 @@ async def buy_item_end(call: CallbackQuery, bot: Bot):
                                                              f"Product not found.", reply_markup=keyboard)
 
     except Exception as e:
-        print(repr(e))
+      traceback.print_exc()
 
 
 async def buy_end_ars(call: CallbackQuery, bot: Bot):
