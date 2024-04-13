@@ -462,7 +462,7 @@ async def buy_item_end(call: CallbackQuery, bot: Bot):
                         keyboard = InlineKeyboardMarkup(inline_keyboard=[
                             [
                                 InlineKeyboardButton(text="Купить ✅",
-                                                     callback_data=f'_ars_end_{city}_{area}_{item}_{gram}_{price_item}_{latitude}_{longtitude}_{launge}')
+                                                     callback_data=f'_ars_end_{city}_{item}_{gram}_{price_item}_{latitude}_{longtitude}_{launge}')
                             ] +
                             [
                                 InlineKeyboardButton(text="Отменить ❌", callback_data=f'back_menu_st_{city}_{area}_{item}')
