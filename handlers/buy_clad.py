@@ -3,6 +3,7 @@ from aiogram.types import (Message,
                            InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery)
 import sqlite3
 from datetime import datetime
+import traceback
 
 
 async def buy_clad(call: CallbackQuery, bot: Bot):
